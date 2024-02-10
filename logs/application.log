@@ -1,0 +1,221 @@
+16:33:31.601 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+16:33:31.621 [main] INFO  s.n.e.e.EcommerceappApplication - Starting EcommerceappApplication using Java 17.0.8 with PID 208055 (/home/zj/projects/ecommerceapp/target/classes started by zj in /home/zj/projects/ecommerceapp)
+16:33:31.622 [main] INFO  s.n.e.e.EcommerceappApplication - The following 1 profile is active: "dev"
+16:33:31.961 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+16:33:32.006 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 40 ms. Found 7 JPA repository interfaces.
+16:33:32.293 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+16:33:32.298 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+16:33:32.299 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+16:33:32.299 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.18]
+16:33:32.329 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+16:33:32.330 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 683 ms
+16:33:32.402 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+16:33:32.427 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.1.Final
+16:33:32.444 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+16:33:32.561 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+16:33:32.575 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+16:33:32.740 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2ab9e43e
+16:33:32.741 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+16:33:32.759 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+16:33:33.385 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+16:33:33.441 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+16:33:33.805 [main] INFO  s.n.e.e.service.AddressServiceImpl - 🏠🔵 AddressServiceImpl - received creat request  customerId 1 blockNumber  streetName Jalan Tukang buildingName Smith Place city SG state SG postalCode 670455
+16:33:33.822 [main] INFO  s.n.e.e.service.AddressServiceImpl - 🏠🔵 foundCustomer sg.ntu.edu.ecommerceapp.entity.Customer@1b0fc8b
+16:33:33.825 [main] INFO  s.n.e.e.service.AddressServiceImpl - 🏠🟢 POST newAddress saved in orderRepo sg.ntu.edu.ecommerceapp.entity.Address@1be3e952
+16:33:33.825 [main] INFO  s.n.e.e.service.AddressServiceImpl - 🏠🔵 AddressServiceImpl - received creat request  customerId 1 blockNumber  streetName Jalan Bakar buildingName Burns city SG state SG postalCode 670456
+16:33:33.830 [main] INFO  s.n.e.e.service.AddressServiceImpl - 🏠🔵 foundCustomer sg.ntu.edu.ecommerceapp.entity.Customer@1a3611b1
+16:33:33.833 [main] INFO  s.n.e.e.service.AddressServiceImpl - 🏠🟢 POST newAddress saved in orderRepo sg.ntu.edu.ecommerceapp.entity.Address@4b9dd787
+16:33:33.833 [main] INFO  s.n.e.e.service.AddressServiceImpl - 🏠🔵 AddressServiceImpl - received creat request  customerId 1 blockNumber  streetName Jalan Tunang buildingName Engaged Building city SG state SG postalCode 670456
+16:33:33.837 [main] INFO  s.n.e.e.service.AddressServiceImpl - 🏠🔵 foundCustomer sg.ntu.edu.ecommerceapp.entity.Customer@4d204b30
+16:33:33.839 [main] INFO  s.n.e.e.service.AddressServiceImpl - 🏠🟢 POST newAddress saved in orderRepo sg.ntu.edu.ecommerceapp.entity.Address@29088d3d
+16:33:33.839 [main] INFO  s.n.e.e.service.AddressServiceImpl - 🏠🔵 AddressServiceImpl - received creat request  customerId 2 blockNumber  streetName Kampung Java buildingName Java Village city SG state SG postalCode 670457
+16:33:33.842 [main] INFO  s.n.e.e.service.AddressServiceImpl - 🏠🔵 foundCustomer sg.ntu.edu.ecommerceapp.entity.Customer@220d7eb7
+16:33:33.843 [main] INFO  s.n.e.e.service.AddressServiceImpl - 🏠🟢 POST newAddress saved in orderRepo sg.ntu.edu.ecommerceapp.entity.Address@5006a697
+16:33:33.844 [main] INFO  s.n.e.e.service.AddressServiceImpl - 🏠🔵 AddressServiceImpl - received creat request  customerId 2 blockNumber  streetName Jalan Satay buildingName Satay Street city SG state SG postalCode 670458
+16:33:33.846 [main] INFO  s.n.e.e.service.AddressServiceImpl - 🏠🔵 foundCustomer sg.ntu.edu.ecommerceapp.entity.Customer@1c000c2f
+16:33:33.848 [main] INFO  s.n.e.e.service.AddressServiceImpl - 🏠🟢 POST newAddress saved in orderRepo sg.ntu.edu.ecommerceapp.entity.Address@308e465b
+16:33:33.848 [main] INFO  s.n.e.e.service.AddressServiceImpl - 🏠🔵 AddressServiceImpl - received creat request  customerId 3 blockNumber  streetName Kay Poh Road buildingName Busy Body Inc city SG state SG postalCode 670459
+16:33:33.850 [main] INFO  s.n.e.e.service.AddressServiceImpl - 🏠🔵 foundCustomer sg.ntu.edu.ecommerceapp.entity.Customer@60510791
+16:33:33.852 [main] INFO  s.n.e.e.service.AddressServiceImpl - 🏠🟢 POST newAddress saved in orderRepo sg.ntu.edu.ecommerceapp.entity.Address@4598961d
+16:33:33.852 [main] INFO  s.n.e.e.service.AddressServiceImpl - 🏠🔵 AddressServiceImpl - received creat request  customerId 3 blockNumber  streetName Lorong Lew Lian buildingName Durian Hub city SG state SG postalCode 670460
+16:33:33.855 [main] INFO  s.n.e.e.service.AddressServiceImpl - 🏠🔵 foundCustomer sg.ntu.edu.ecommerceapp.entity.Customer@16eb01d4
+16:33:33.857 [main] INFO  s.n.e.e.service.AddressServiceImpl - 🏠🟢 POST newAddress saved in orderRepo sg.ntu.edu.ecommerceapp.entity.Address@69efdfd9
+16:33:33.857 [main] INFO  s.n.e.e.service.AddressServiceImpl - 🏠🔵 AddressServiceImpl - received creat request  customerId 4 blockNumber  streetName Rotan Lane buildingName Discipline Place city SG state SG postalCode 670461
+16:33:33.859 [main] INFO  s.n.e.e.service.AddressServiceImpl - 🏠🔵 foundCustomer sg.ntu.edu.ecommerceapp.entity.Customer@682482ee
+16:33:33.861 [main] INFO  s.n.e.e.service.AddressServiceImpl - 🏠🟢 POST newAddress saved in orderRepo sg.ntu.edu.ecommerceapp.entity.Address@2c1a0f82
+16:33:33.861 [main] INFO  s.n.e.e.service.AddressServiceImpl - 🏠🔵 AddressServiceImpl - received creat request  customerId 4 blockNumber  streetName Pending Road buildingName Wait Long Long city SG state SG postalCode 670462
+16:33:33.864 [main] INFO  s.n.e.e.service.AddressServiceImpl - 🏠🔵 foundCustomer sg.ntu.edu.ecommerceapp.entity.Customer@24d7c365
+16:33:33.866 [main] INFO  s.n.e.e.service.AddressServiceImpl - 🏠🟢 POST newAddress saved in orderRepo sg.ntu.edu.ecommerceapp.entity.Address@5fb0a09e
+16:33:33.866 [main] INFO  s.n.e.e.service.AddressServiceImpl - 🏠🔵 AddressServiceImpl - received creat request  customerId 5 blockNumber  streetName Jalan Malu Malu buildingName Shy city SG state SG postalCode 670462
+16:33:33.869 [main] INFO  s.n.e.e.service.AddressServiceImpl - 🏠🔵 foundCustomer sg.ntu.edu.ecommerceapp.entity.Customer@25b87e1b
+16:33:33.871 [main] INFO  s.n.e.e.service.AddressServiceImpl - 🏠🟢 POST newAddress saved in orderRepo sg.ntu.edu.ecommerceapp.entity.Address@756030e2
+16:33:33.871 [main] INFO  s.n.e.e.service.AddressServiceImpl - 🏠🔵 AddressServiceImpl - received creat request  customerId 5 blockNumber  streetName Jalan Langgar buildingName Crash Zone city SG state SG postalCode 670463
+16:33:33.873 [main] INFO  s.n.e.e.service.AddressServiceImpl - 🏠🔵 foundCustomer sg.ntu.edu.ecommerceapp.entity.Customer@3891db3a
+16:33:33.874 [main] INFO  s.n.e.e.service.AddressServiceImpl - 🏠🟢 POST newAddress saved in orderRepo sg.ntu.edu.ecommerceapp.entity.Address@240e61
+16:33:33.874 [main] INFO  s.n.e.e.service.AddressServiceImpl - 🏠🔵 AddressServiceImpl - received creat request  customerId 6 blockNumber  streetName Jalan Pisang buildingName Banana city SG state SG postalCode 670464
+16:33:33.876 [main] INFO  s.n.e.e.service.AddressServiceImpl - 🏠🔵 foundCustomer sg.ntu.edu.ecommerceapp.entity.Customer@41041c31
+16:33:33.877 [main] INFO  s.n.e.e.service.AddressServiceImpl - 🏠🟢 POST newAddress saved in orderRepo sg.ntu.edu.ecommerceapp.entity.Address@6939f18a
+16:33:33.877 [main] INFO  s.n.e.e.service.AddressServiceImpl - 🏠🔵 AddressServiceImpl - received creat request  customerId 7 blockNumber  streetName Kallang Pudding Road buildingName Pudding city SG state SG postalCode 670464
+16:33:33.879 [main] INFO  s.n.e.e.service.AddressServiceImpl - 🏠🔵 foundCustomer sg.ntu.edu.ecommerceapp.entity.Customer@e75bae7
+16:33:33.880 [main] INFO  s.n.e.e.service.AddressServiceImpl - 🏠🟢 POST newAddress saved in orderRepo sg.ntu.edu.ecommerceapp.entity.Address@4f2b1a2f
+16:33:33.881 [main] INFO  s.n.e.e.service.AddressServiceImpl - 🏠🔵 AddressServiceImpl - received creat request  customerId 8 blockNumber  streetName Sandwich Road buildingName Delicious city SG state SG postalCode 670465
+16:33:33.883 [main] INFO  s.n.e.e.service.AddressServiceImpl - 🏠🔵 foundCustomer sg.ntu.edu.ecommerceapp.entity.Customer@3ae91bcc
+16:33:33.885 [main] INFO  s.n.e.e.service.AddressServiceImpl - 🏠🟢 POST newAddress saved in orderRepo sg.ntu.edu.ecommerceapp.entity.Address@59172d2
+16:33:33.885 [main] INFO  s.n.e.e.service.AddressServiceImpl - 🏠🔵 AddressServiceImpl - received creat request  customerId 9 blockNumber  streetName Cheow Keng Road buildingName Escape city SG state SG postalCode 670466
+16:33:33.887 [main] INFO  s.n.e.e.service.AddressServiceImpl - 🏠🔵 foundCustomer sg.ntu.edu.ecommerceapp.entity.Customer@7d086485
+16:33:33.889 [main] INFO  s.n.e.e.service.AddressServiceImpl - 🏠🟢 POST newAddress saved in orderRepo sg.ntu.edu.ecommerceapp.entity.Address@1ece052b
+16:33:33.889 [main] INFO  s.n.e.e.service.AddressServiceImpl - 🏠🔵 AddressServiceImpl - received creat request  customerId 10 blockNumber  streetName Robinson Road buildingName Robbing son city SG state SG postalCode 670467
+16:33:33.891 [main] INFO  s.n.e.e.service.AddressServiceImpl - 🏠🔵 foundCustomer sg.ntu.edu.ecommerceapp.entity.Customer@796a7c9
+16:33:33.893 [main] INFO  s.n.e.e.service.AddressServiceImpl - 🏠🟢 POST newAddress saved in orderRepo sg.ntu.edu.ecommerceapp.entity.Address@2db75e32
+16:33:33.899 [main] INFO  s.n.e.e.service.ProductServiceImpl - 🧾🔵 finding foundSeller ... 1
+16:33:33.903 [main] INFO  s.n.e.e.service.ProductServiceImpl - 🧾🔵 finding foundSeller ... 1
+16:33:33.905 [main] INFO  s.n.e.e.service.ProductServiceImpl - 🧾🔵 finding foundSeller ... 1
+16:33:33.907 [main] INFO  s.n.e.e.service.ProductServiceImpl - 🧾🔵 finding foundSeller ... 1
+16:33:33.909 [main] INFO  s.n.e.e.service.ProductServiceImpl - 🧾🔵 finding foundSeller ... 1
+16:33:33.911 [main] INFO  s.n.e.e.service.ProductServiceImpl - 🧾🔵 finding foundSeller ... 1
+16:33:33.914 [main] INFO  s.n.e.e.service.ProductServiceImpl - 🧾🔵 finding foundSeller ... 2
+16:33:33.915 [main] INFO  s.n.e.e.service.ProductServiceImpl - 🧾🔵 finding foundSeller ... 2
+16:33:33.917 [main] INFO  s.n.e.e.service.ProductServiceImpl - 🧾🔵 finding foundSeller ... 2
+16:33:33.919 [main] INFO  s.n.e.e.service.ProductServiceImpl - 🧾🔵 finding foundSeller ... 2
+16:33:33.921 [main] INFO  s.n.e.e.service.ProductServiceImpl - 🧾🔵 finding foundSeller ... 2
+16:33:33.923 [main] INFO  s.n.e.e.service.ProductServiceImpl - 🧾🔵 finding foundSeller ... 2
+16:33:33.924 [main] INFO  s.n.e.e.service.ProductServiceImpl - 🧾🔵 finding foundSeller ... 2
+16:33:33.927 [main] INFO  s.n.e.e.service.ProductServiceImpl - 🧾🔵 finding foundSeller ... 3
+16:33:33.929 [main] INFO  s.n.e.e.service.ProductServiceImpl - 🧾🔵 finding foundSeller ... 3
+16:33:33.931 [main] INFO  s.n.e.e.service.ProductServiceImpl - 🧾🔵 finding foundSeller ... 3
+16:33:33.933 [main] INFO  s.n.e.e.service.ProductServiceImpl - 🧾🔵 finding foundSeller ... 3
+16:33:33.935 [main] INFO  s.n.e.e.service.ProductServiceImpl - 🧾🔵 finding foundSeller ... 3
+16:33:33.936 [main] INFO  s.n.e.e.service.ProductServiceImpl - 🧾🔵 finding foundSeller ... 3
+16:33:33.938 [main] INFO  s.n.e.e.service.ProductServiceImpl - 🧾🔵 finding foundSeller ... 3
+16:33:33.939 [main] INFO  s.n.e.e.service.OrderServiceImpl - 🧾🔵 createOrder requested addressId 1
+16:33:33.943 [main] INFO  s.n.e.e.service.OrderServiceImpl - 🧾🔵 foundAddress sg.ntu.edu.ecommerceapp.entity.Address@4607cbe2
+16:33:33.951 [main] INFO  s.n.e.e.service.OrderServiceImpl - 🧾🟢(d) POST newOrder saved in orderRepo Order [orderId=1, orderDate=2024-02-10 16:33:33.944501, orderAddress=sg.ntu.edu.ecommerceapp.entity.Address@4607cbe2, orderedItems=[], total=0.0]
+16:33:33.951 [main] INFO  s.n.e.e.service.OrderServiceImpl - 🧾🔵 createOrder requested addressId 2
+16:33:33.956 [main] INFO  s.n.e.e.service.OrderServiceImpl - 🧾🔵 foundAddress sg.ntu.edu.ecommerceapp.entity.Address@60655642
+16:33:33.958 [main] INFO  s.n.e.e.service.OrderServiceImpl - 🧾🟢(d) POST newOrder saved in orderRepo Order [orderId=2, orderDate=2024-02-10 16:33:33.956594, orderAddress=sg.ntu.edu.ecommerceapp.entity.Address@60655642, orderedItems=[], total=0.0]
+16:33:33.958 [main] INFO  s.n.e.e.service.OrderServiceImpl - 🧾🔵 createOrder requested addressId 3
+16:33:33.963 [main] INFO  s.n.e.e.service.OrderServiceImpl - 🧾🔵 foundAddress sg.ntu.edu.ecommerceapp.entity.Address@c950fd
+16:33:33.964 [main] INFO  s.n.e.e.service.OrderServiceImpl - 🧾🟢(d) POST newOrder saved in orderRepo Order [orderId=3, orderDate=2024-02-10 16:33:33.963597, orderAddress=sg.ntu.edu.ecommerceapp.entity.Address@c950fd, orderedItems=[], total=0.0]
+16:33:33.964 [main] INFO  s.n.e.e.service.OrderServiceImpl - 🧾🔵 createOrder requested addressId 4
+16:33:33.967 [main] INFO  s.n.e.e.service.OrderServiceImpl - 🧾🔵 foundAddress sg.ntu.edu.ecommerceapp.entity.Address@7fba30fe
+16:33:33.969 [main] INFO  s.n.e.e.service.OrderServiceImpl - 🧾🟢(d) POST newOrder saved in orderRepo Order [orderId=4, orderDate=2024-02-10 16:33:33.968057, orderAddress=sg.ntu.edu.ecommerceapp.entity.Address@7fba30fe, orderedItems=[], total=0.0]
+16:33:33.969 [main] INFO  s.n.e.e.service.OrderServiceImpl - 🧾🔵 createOrder requested addressId 5
+16:33:33.972 [main] INFO  s.n.e.e.service.OrderServiceImpl - 🧾🔵 foundAddress sg.ntu.edu.ecommerceapp.entity.Address@e5d9fa7
+16:33:33.974 [main] INFO  s.n.e.e.service.OrderServiceImpl - 🧾🟢(d) POST newOrder saved in orderRepo Order [orderId=5, orderDate=2024-02-10 16:33:33.972482, orderAddress=sg.ntu.edu.ecommerceapp.entity.Address@e5d9fa7, orderedItems=[], total=0.0]
+16:33:33.974 [main] INFO  s.n.e.e.service.OrderServiceImpl - 🧾🔵 createOrder requested addressId 6
+16:33:33.975 [main] INFO  s.n.e.e.service.OrderServiceImpl - 🧾🔵 foundAddress sg.ntu.edu.ecommerceapp.entity.Address@5b697993
+16:33:33.977 [main] INFO  s.n.e.e.service.OrderServiceImpl - 🧾🟢(d) POST newOrder saved in orderRepo Order [orderId=6, orderDate=2024-02-10 16:33:33.976294, orderAddress=sg.ntu.edu.ecommerceapp.entity.Address@5b697993, orderedItems=[], total=0.0]
+16:33:33.977 [main] INFO  s.n.e.e.service.OrderServiceImpl - 🧾🔵 createOrder requested addressId 7
+16:33:33.979 [main] INFO  s.n.e.e.service.OrderServiceImpl - 🧾🔵 foundAddress sg.ntu.edu.ecommerceapp.entity.Address@7f5c4ff8
+16:33:33.981 [main] INFO  s.n.e.e.service.OrderServiceImpl - 🧾🟢(d) POST newOrder saved in orderRepo Order [orderId=7, orderDate=2024-02-10 16:33:33.980125, orderAddress=sg.ntu.edu.ecommerceapp.entity.Address@7f5c4ff8, orderedItems=[], total=0.0]
+16:33:33.981 [main] INFO  s.n.e.e.service.OrderServiceImpl - 🧾🔵 createOrder requested addressId 8
+16:33:33.982 [main] INFO  s.n.e.e.service.OrderServiceImpl - 🧾🔵 foundAddress sg.ntu.edu.ecommerceapp.entity.Address@7a91027c
+16:33:33.984 [main] INFO  s.n.e.e.service.OrderServiceImpl - 🧾🟢(d) POST newOrder saved in orderRepo Order [orderId=8, orderDate=2024-02-10 16:33:33.983106, orderAddress=sg.ntu.edu.ecommerceapp.entity.Address@7a91027c, orderedItems=[], total=0.0]
+16:33:33.984 [main] INFO  s.n.e.e.service.OrderServiceImpl - 🧾🔵 createOrder requested addressId 9
+16:33:33.986 [main] INFO  s.n.e.e.service.OrderServiceImpl - 🧾🔵 foundAddress sg.ntu.edu.ecommerceapp.entity.Address@1930e8ef
+16:33:33.987 [main] INFO  s.n.e.e.service.OrderServiceImpl - 🧾🟢(d) POST newOrder saved in orderRepo Order [orderId=9, orderDate=2024-02-10 16:33:33.986446, orderAddress=sg.ntu.edu.ecommerceapp.entity.Address@1930e8ef, orderedItems=[], total=0.0]
+16:33:33.987 [main] INFO  s.n.e.e.service.OrderServiceImpl - 🧾🔵 createOrder requested addressId 10
+16:33:33.989 [main] INFO  s.n.e.e.service.OrderServiceImpl - 🧾🔵 foundAddress sg.ntu.edu.ecommerceapp.entity.Address@17b9c9ff
+16:33:33.990 [main] INFO  s.n.e.e.service.OrderServiceImpl - 🧾🟢(d) POST newOrder saved in orderRepo Order [orderId=10, orderDate=2024-02-10 16:33:33.989633, orderAddress=sg.ntu.edu.ecommerceapp.entity.Address@17b9c9ff, orderedItems=[], total=0.0]
+16:33:34.014 [main] INFO  s.n.e.e.service.CartItemServiceImpl - 🛒 foundProductsg.ntu.edu.ecommerceapp.entity.Product@5f0a5848
+16:33:34.018 [main] INFO  s.n.e.e.service.CartItemServiceImpl - 🛒 foundOrderOrder [orderId=1, orderDate=2024-02-10 16:33:33.944501, orderAddress=sg.ntu.edu.ecommerceapp.entity.Address@2e17a9e6, orderedItems=[], total=0.0]
+16:33:34.026 [main] INFO  s.n.e.e.service.CartItemServiceImpl - 🔵💲checking  currCartItem 2 unitPrice 1900.0 x cartItemQuantity 11 equals 20900.0
+16:33:34.027 [main] INFO  s.n.e.e.service.CartItemServiceImpl - 🛒🟢💲 Checked calculation correct for Order. Saving to REPOOrder [orderId=1, orderDate=2024-02-10 16:33:33.944501, orderAddress=sg.ntu.edu.ecommerceapp.entity.Address@2e17a9e6, orderedItems=[], total=0.0]
+16:33:34.042 [main] INFO  s.n.e.e.service.CartItemServiceImpl - 🛒🟢  newCart set with product, quantity and order saved to reposg.ntu.edu.ecommerceapp.entity.CartItem@2c6553c6
+16:33:34.043 [main] INFO  s.n.e.e.service.CartItemServiceImpl - 🛒 foundProductsg.ntu.edu.ecommerceapp.entity.Product@549fe529
+16:33:34.047 [main] INFO  s.n.e.e.service.CartItemServiceImpl - 🛒 foundOrderOrder [orderId=1, orderDate=2024-02-10 16:33:33.944501, orderAddress=sg.ntu.edu.ecommerceapp.entity.Address@7c7b27c, orderedItems=[sg.ntu.edu.ecommerceapp.entity.CartItem@7a90f33d], total=20900.0]
+16:33:34.051 [main] INFO  s.n.e.e.service.CartItemServiceImpl - 🔵💲checking  currCartItem 1 unitPrice 1900.0 x cartItemQuantity 11 equals 20900.0
+16:33:34.051 [main] INFO  s.n.e.e.service.CartItemServiceImpl - 🔵💲checking  currCartItem 2 unitPrice 3700.0 x cartItemQuantity 22 equals 81400.0
+16:33:34.051 [main] INFO  s.n.e.e.service.CartItemServiceImpl - 🛒🟢💲 Checked calculation correct for Order. Saving to REPOOrder [orderId=1, orderDate=2024-02-10 16:33:33.944501, orderAddress=sg.ntu.edu.ecommerceapp.entity.Address@7c7b27c, orderedItems=[sg.ntu.edu.ecommerceapp.entity.CartItem@7a90f33d], total=20900.0]
+16:33:34.058 [main] INFO  s.n.e.e.service.CartItemServiceImpl - 🛒🟢  newCart set with product, quantity and order saved to reposg.ntu.edu.ecommerceapp.entity.CartItem@4884350b
+16:33:34.059 [main] INFO  s.n.e.e.service.CartItemServiceImpl - 🛒 foundProductsg.ntu.edu.ecommerceapp.entity.Product@15c8b75c
+16:33:34.065 [main] INFO  s.n.e.e.service.CartItemServiceImpl - 🛒 foundOrderOrder [orderId=1, orderDate=2024-02-10 16:33:33.944501, orderAddress=sg.ntu.edu.ecommerceapp.entity.Address@7ab8f93, orderedItems=[sg.ntu.edu.ecommerceapp.entity.CartItem@c7aac7c, sg.ntu.edu.ecommerceapp.entity.CartItem@5af8ef61], total=102300.0]
+16:33:34.069 [main] INFO  s.n.e.e.service.CartItemServiceImpl - 🔵💲checking  currCartItem 1 unitPrice 1900.0 x cartItemQuantity 11 equals 20900.0
+16:33:34.069 [main] INFO  s.n.e.e.service.CartItemServiceImpl - 🔵💲checking  currCartItem 1 unitPrice 3700.0 x cartItemQuantity 22 equals 81400.0
+16:33:34.069 [main] INFO  s.n.e.e.service.CartItemServiceImpl - 🔵💲checking  currCartItem 3 unitPrice 2200.0 x cartItemQuantity 33 equals 72600.0
+16:33:34.069 [main] INFO  s.n.e.e.service.CartItemServiceImpl - 🛒🟢💲 Checked calculation correct for Order. Saving to REPOOrder [orderId=1, orderDate=2024-02-10 16:33:33.944501, orderAddress=sg.ntu.edu.ecommerceapp.entity.Address@7ab8f93, orderedItems=[sg.ntu.edu.ecommerceapp.entity.CartItem@c7aac7c, sg.ntu.edu.ecommerceapp.entity.CartItem@5af8ef61], total=102300.0]
+16:33:34.077 [main] INFO  s.n.e.e.service.CartItemServiceImpl - 🛒🟢  newCart set with product, quantity and order saved to reposg.ntu.edu.ecommerceapp.entity.CartItem@74471600
+16:33:34.078 [main] INFO  s.n.e.e.service.CartItemServiceImpl - 🛒 foundProductsg.ntu.edu.ecommerceapp.entity.Product@58ca1cad
+16:33:34.086 [main] INFO  s.n.e.e.service.CartItemServiceImpl - 🛒 foundOrderOrder [orderId=1, orderDate=2024-02-10 16:33:33.944501, orderAddress=sg.ntu.edu.ecommerceapp.entity.Address@ee7a538, orderedItems=[sg.ntu.edu.ecommerceapp.entity.CartItem@7bb4f09d, sg.ntu.edu.ecommerceapp.entity.CartItem@7b5e5fa, sg.ntu.edu.ecommerceapp.entity.CartItem@4733662d], total=174900.0]
+16:33:34.089 [main] INFO  s.n.e.e.service.CartItemServiceImpl - 🔵💲checking  currCartItem 1 unitPrice 1900.0 x cartItemQuantity 11 equals 20900.0
+16:33:34.089 [main] INFO  s.n.e.e.service.CartItemServiceImpl - 🔵💲checking  currCartItem 1 unitPrice 3700.0 x cartItemQuantity 22 equals 81400.0
+16:33:34.089 [main] INFO  s.n.e.e.service.CartItemServiceImpl - 🔵💲checking  currCartItem 2 unitPrice 2200.0 x cartItemQuantity 33 equals 72600.0
+16:33:34.089 [main] INFO  s.n.e.e.service.CartItemServiceImpl - 🔵💲checking  currCartItem 4 unitPrice 2300.0 x cartItemQuantity 44 equals 101200.0
+16:33:34.089 [main] INFO  s.n.e.e.service.CartItemServiceImpl - 🛒🟢💲 Checked calculation correct for Order. Saving to REPOOrder [orderId=1, orderDate=2024-02-10 16:33:33.944501, orderAddress=sg.ntu.edu.ecommerceapp.entity.Address@ee7a538, orderedItems=[sg.ntu.edu.ecommerceapp.entity.CartItem@7bb4f09d, sg.ntu.edu.ecommerceapp.entity.CartItem@7b5e5fa, sg.ntu.edu.ecommerceapp.entity.CartItem@4733662d], total=174900.0]
+16:33:34.101 [main] INFO  s.n.e.e.service.CartItemServiceImpl - 🛒🟢  newCart set with product, quantity and order saved to reposg.ntu.edu.ecommerceapp.entity.CartItem@16ca4532
+16:33:34.102 [main] INFO  s.n.e.e.service.CartItemServiceImpl - 🛒 foundProductsg.ntu.edu.ecommerceapp.entity.Product@345d4ecb
+16:33:34.108 [main] INFO  s.n.e.e.service.CartItemServiceImpl - 🛒 foundOrderOrder [orderId=2, orderDate=2024-02-10 16:33:33.956594, orderAddress=sg.ntu.edu.ecommerceapp.entity.Address@66ab3716, orderedItems=[], total=0.0]
+16:33:34.110 [main] INFO  s.n.e.e.service.CartItemServiceImpl - 🔵💲checking  currCartItem 2 unitPrice 1800.0 x cartItemQuantity 55 equals 99000.0
+16:33:34.111 [main] INFO  s.n.e.e.service.CartItemServiceImpl - 🛒🟢💲 Checked calculation correct for Order. Saving to REPOOrder [orderId=2, orderDate=2024-02-10 16:33:33.956594, orderAddress=sg.ntu.edu.ecommerceapp.entity.Address@66ab3716, orderedItems=[], total=0.0]
+16:33:34.122 [main] INFO  s.n.e.e.service.CartItemServiceImpl - 🛒🟢  newCart set with product, quantity and order saved to reposg.ntu.edu.ecommerceapp.entity.CartItem@569026df
+16:33:34.122 [main] INFO  s.n.e.e.service.CartItemServiceImpl - 🛒 foundProductsg.ntu.edu.ecommerceapp.entity.Product@769c80d1
+16:33:34.129 [main] INFO  s.n.e.e.service.CartItemServiceImpl - 🛒 foundOrderOrder [orderId=2, orderDate=2024-02-10 16:33:33.956594, orderAddress=sg.ntu.edu.ecommerceapp.entity.Address@19565b5, orderedItems=[sg.ntu.edu.ecommerceapp.entity.CartItem@60660d21], total=99000.0]
+16:33:34.130 [main] INFO  s.n.e.e.service.CartItemServiceImpl - 🔵💲checking  currCartItem 1 unitPrice 1800.0 x cartItemQuantity 55 equals 99000.0
+16:33:34.130 [main] INFO  s.n.e.e.service.CartItemServiceImpl - 🔵💲checking  currCartItem 2 unitPrice 900.99 x cartItemQuantity 66 equals 59465.340000000004
+16:33:34.130 [main] INFO  s.n.e.e.service.CartItemServiceImpl - 🛒🟢💲 Checked calculation correct for Order. Saving to REPOOrder [orderId=2, orderDate=2024-02-10 16:33:33.956594, orderAddress=sg.ntu.edu.ecommerceapp.entity.Address@19565b5, orderedItems=[sg.ntu.edu.ecommerceapp.entity.CartItem@60660d21], total=99000.0]
+16:33:34.140 [main] INFO  s.n.e.e.service.CartItemServiceImpl - 🛒🟢  newCart set with product, quantity and order saved to reposg.ntu.edu.ecommerceapp.entity.CartItem@444fbd13
+16:33:34.140 [main] INFO  s.n.e.e.service.CartItemServiceImpl - 🛒 foundProductsg.ntu.edu.ecommerceapp.entity.Product@57657b96
+16:33:34.147 [main] INFO  s.n.e.e.service.CartItemServiceImpl - 🛒 foundOrderOrder [orderId=2, orderDate=2024-02-10 16:33:33.956594, orderAddress=sg.ntu.edu.ecommerceapp.entity.Address@6d2693f, orderedItems=[sg.ntu.edu.ecommerceapp.entity.CartItem@147ea894, sg.ntu.edu.ecommerceapp.entity.CartItem@64a9fca7], total=158465.34]
+16:33:34.148 [main] INFO  s.n.e.e.service.CartItemServiceImpl - 🔵💲checking  currCartItem 1 unitPrice 1800.0 x cartItemQuantity 55 equals 99000.0
+16:33:34.148 [main] INFO  s.n.e.e.service.CartItemServiceImpl - 🔵💲checking  currCartItem 1 unitPrice 900.99 x cartItemQuantity 66 equals 59465.340000000004
+16:33:34.148 [main] INFO  s.n.e.e.service.CartItemServiceImpl - 🔵💲checking  currCartItem 3 unitPrice 98.99 x cartItemQuantity 77 equals 7622.23
+16:33:34.148 [main] INFO  s.n.e.e.service.CartItemServiceImpl - 🛒🟢💲 Checked calculation correct for Order. Saving to REPOOrder [orderId=2, orderDate=2024-02-10 16:33:33.956594, orderAddress=sg.ntu.edu.ecommerceapp.entity.Address@6d2693f, orderedItems=[sg.ntu.edu.ecommerceapp.entity.CartItem@147ea894, sg.ntu.edu.ecommerceapp.entity.CartItem@64a9fca7], total=158465.34]
+16:33:34.158 [main] INFO  s.n.e.e.service.CartItemServiceImpl - 🛒🟢  newCart set with product, quantity and order saved to reposg.ntu.edu.ecommerceapp.entity.CartItem@444720b7
+16:33:34.159 [main] INFO  s.n.e.e.service.CartItemServiceImpl - 🛒 foundProductsg.ntu.edu.ecommerceapp.entity.Product@43069adf
+16:33:34.165 [main] INFO  s.n.e.e.service.CartItemServiceImpl - 🛒 foundOrderOrder [orderId=3, orderDate=2024-02-10 16:33:33.963597, orderAddress=sg.ntu.edu.ecommerceapp.entity.Address@1deca369, orderedItems=[], total=0.0]
+16:33:34.167 [main] INFO  s.n.e.e.service.CartItemServiceImpl - 🔵💲checking  currCartItem 2 unitPrice 499.0 x cartItemQuantity 88 equals 43912.0
+16:33:34.167 [main] INFO  s.n.e.e.service.CartItemServiceImpl - 🛒🟢💲 Checked calculation correct for Order. Saving to REPOOrder [orderId=3, orderDate=2024-02-10 16:33:33.963597, orderAddress=sg.ntu.edu.ecommerceapp.entity.Address@1deca369, orderedItems=[], total=0.0]
+16:33:34.177 [main] INFO  s.n.e.e.service.CartItemServiceImpl - 🛒🟢  newCart set with product, quantity and order saved to reposg.ntu.edu.ecommerceapp.entity.CartItem@73ab649f
+16:33:34.178 [main] INFO  s.n.e.e.service.CartItemServiceImpl - 🛒 foundProductsg.ntu.edu.ecommerceapp.entity.Product@10b36d8a
+16:33:34.185 [main] INFO  s.n.e.e.service.CartItemServiceImpl - 🛒 foundOrderOrder [orderId=3, orderDate=2024-02-10 16:33:33.963597, orderAddress=sg.ntu.edu.ecommerceapp.entity.Address@3119fcad, orderedItems=[sg.ntu.edu.ecommerceapp.entity.CartItem@475b796d], total=43912.0]
+16:33:34.186 [main] INFO  s.n.e.e.service.CartItemServiceImpl - 🔵💲checking  currCartItem 1 unitPrice 499.0 x cartItemQuantity 88 equals 43912.0
+16:33:34.186 [main] INFO  s.n.e.e.service.CartItemServiceImpl - 🔵💲checking  currCartItem 2 unitPrice 1200.0 x cartItemQuantity 99 equals 118800.0
+16:33:34.186 [main] INFO  s.n.e.e.service.CartItemServiceImpl - 🛒🟢💲 Checked calculation correct for Order. Saving to REPOOrder [orderId=3, orderDate=2024-02-10 16:33:33.963597, orderAddress=sg.ntu.edu.ecommerceapp.entity.Address@3119fcad, orderedItems=[sg.ntu.edu.ecommerceapp.entity.CartItem@475b796d], total=43912.0]
+16:33:34.196 [main] INFO  s.n.e.e.service.CartItemServiceImpl - 🛒🟢  newCart set with product, quantity and order saved to reposg.ntu.edu.ecommerceapp.entity.CartItem@3b2317b7
+16:33:34.197 [main] INFO  s.n.e.e.service.CartItemServiceImpl - 🛒 foundProductsg.ntu.edu.ecommerceapp.entity.Product@71ae1cb
+16:33:34.203 [main] INFO  s.n.e.e.service.CartItemServiceImpl - 🛒 foundOrderOrder [orderId=3, orderDate=2024-02-10 16:33:33.963597, orderAddress=sg.ntu.edu.ecommerceapp.entity.Address@5e7fc012, orderedItems=[sg.ntu.edu.ecommerceapp.entity.CartItem@33490054, sg.ntu.edu.ecommerceapp.entity.CartItem@27f43664], total=162712.0]
+16:33:34.204 [main] INFO  s.n.e.e.service.CartItemServiceImpl - 🔵💲checking  currCartItem 1 unitPrice 499.0 x cartItemQuantity 88 equals 43912.0
+16:33:34.204 [main] INFO  s.n.e.e.service.CartItemServiceImpl - 🔵💲checking  currCartItem 1 unitPrice 1200.0 x cartItemQuantity 99 equals 118800.0
+16:33:34.204 [main] INFO  s.n.e.e.service.CartItemServiceImpl - 🔵💲checking  currCartItem 3 unitPrice 1600.0 x cartItemQuantity 100 equals 160000.0
+16:33:34.205 [main] INFO  s.n.e.e.service.CartItemServiceImpl - 🛒🟢💲 Checked calculation correct for Order. Saving to REPOOrder [orderId=3, orderDate=2024-02-10 16:33:33.963597, orderAddress=sg.ntu.edu.ecommerceapp.entity.Address@5e7fc012, orderedItems=[sg.ntu.edu.ecommerceapp.entity.CartItem@33490054, sg.ntu.edu.ecommerceapp.entity.CartItem@27f43664], total=162712.0]
+16:33:34.214 [main] INFO  s.n.e.e.service.CartItemServiceImpl - 🛒🟢  newCart set with product, quantity and order saved to reposg.ntu.edu.ecommerceapp.entity.CartItem@52d68eb9
+16:33:34.241 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+16:33:34.406 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+16:33:34.414 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+16:33:34.420 [main] INFO  s.n.e.e.EcommerceappApplication - Started EcommerceappApplication in 2.973 seconds (process running for 3.212)
+16:34:38.237 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:34:38.237 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+16:34:38.238 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+16:34:38.295 [http-nio-8080-exec-1] INFO  s.n.e.e.service.OrderServiceImpl - 🧾🔵 createOrder requested addressId 14
+16:34:38.304 [http-nio-8080-exec-1] INFO  s.n.e.e.service.OrderServiceImpl - 🧾🔵 foundAddress sg.ntu.edu.ecommerceapp.entity.Address@7a5383f6
+16:34:38.306 [http-nio-8080-exec-1] INFO  s.n.e.e.service.OrderServiceImpl - 🧾🟢(d) POST newOrder saved in orderRepo Order [orderId=11, orderDate=2024-02-10 16:34:38.305019, orderAddress=sg.ntu.edu.ecommerceapp.entity.Address@7a5383f6, orderedItems=[], total=0.0]
+16:34:41.854 [http-nio-8080-exec-2] INFO  s.n.e.e.service.OrderServiceImpl - 🧾🔵 createOrder requested addressId 13
+16:34:41.862 [http-nio-8080-exec-2] INFO  s.n.e.e.service.OrderServiceImpl - 🧾🔵 foundAddress sg.ntu.edu.ecommerceapp.entity.Address@1ebb47b2
+16:34:41.866 [http-nio-8080-exec-2] INFO  s.n.e.e.service.OrderServiceImpl - 🧾🟢(d) POST newOrder saved in orderRepo Order [orderId=12, orderDate=2024-02-10 16:34:41.862479, orderAddress=sg.ntu.edu.ecommerceapp.entity.Address@1ebb47b2, orderedItems=[], total=0.0]
+16:34:44.703 [http-nio-8080-exec-3] INFO  s.n.e.e.service.OrderServiceImpl - 🧾🔵 createOrder requested addressId 12
+16:34:44.713 [http-nio-8080-exec-3] INFO  s.n.e.e.service.OrderServiceImpl - 🧾🔵 foundAddress sg.ntu.edu.ecommerceapp.entity.Address@d4b8374
+16:34:44.720 [http-nio-8080-exec-3] INFO  s.n.e.e.service.OrderServiceImpl - 🧾🟢(d) POST newOrder saved in orderRepo Order [orderId=13, orderDate=2024-02-10 16:34:44.714868, orderAddress=sg.ntu.edu.ecommerceapp.entity.Address@d4b8374, orderedItems=[], total=0.0]
+16:34:50.786 [http-nio-8080-exec-4] INFO  s.n.e.e.service.CartItemServiceImpl - 🛒 foundProductsg.ntu.edu.ecommerceapp.entity.Product@25298421
+16:34:50.795 [http-nio-8080-exec-4] INFO  s.n.e.e.service.CartItemServiceImpl - 🛒 foundOrderOrder [orderId=4, orderDate=2024-02-10 16:33:33.968057, orderAddress=sg.ntu.edu.ecommerceapp.entity.Address@78533e68, orderedItems=[], total=0.0]
+16:34:50.797 [http-nio-8080-exec-4] ERROR s.n.e.e.service.CartItemServiceImpl - 🛒🔴 Error cannot find foundCart 0 error sg.ntu.edu.ecommerceapp.service.CartItemServiceImpl$3: Cart not found! 0
+16:34:50.798 [http-nio-8080-exec-4] INFO  s.n.e.e.service.CartItemServiceImpl - 🔵💲checking  currCartItem 2 unitPrice 1000.99 x cartItemQuantity 700 equals 700693.0
+16:34:50.798 [http-nio-8080-exec-4] INFO  s.n.e.e.service.CartItemServiceImpl - 🛒🟢💲 Checked calculation correct for Order. Saving to REPOOrder [orderId=4, orderDate=2024-02-10 16:33:33.968057, orderAddress=sg.ntu.edu.ecommerceapp.entity.Address@78533e68, orderedItems=[], total=0.0]
+16:34:50.804 [http-nio-8080-exec-4] INFO  s.n.e.e.service.CartItemServiceImpl - 🛒🟢  newCart set with product, quantity and order saved to reposg.ntu.edu.ecommerceapp.entity.CartItem@5848ddb6
+16:34:54.305 [http-nio-8080-exec-5] INFO  s.n.e.e.service.CartItemServiceImpl - 🛒 foundProductsg.ntu.edu.ecommerceapp.entity.Product@2a4a1d72
+16:34:54.314 [http-nio-8080-exec-5] INFO  s.n.e.e.service.CartItemServiceImpl - 🛒 foundOrderOrder [orderId=4, orderDate=2024-02-10 16:33:33.968057, orderAddress=sg.ntu.edu.ecommerceapp.entity.Address@1e7f5e78, orderedItems=[sg.ntu.edu.ecommerceapp.entity.CartItem@60a657c4], total=700693.0]
+16:34:54.315 [http-nio-8080-exec-5] ERROR s.n.e.e.service.CartItemServiceImpl - 🛒🔴 Error cannot find foundCart 0 error sg.ntu.edu.ecommerceapp.service.CartItemServiceImpl$3: Cart not found! 0
+16:34:54.315 [http-nio-8080-exec-5] INFO  s.n.e.e.service.CartItemServiceImpl - 🔵💲checking  currCartItem 1 unitPrice 1000.99 x cartItemQuantity 700 equals 700693.0
+16:34:54.315 [http-nio-8080-exec-5] INFO  s.n.e.e.service.CartItemServiceImpl - 🔵💲checking  currCartItem 2 unitPrice 200.99 x cartItemQuantity 700 equals 140693.0
+16:34:54.315 [http-nio-8080-exec-5] INFO  s.n.e.e.service.CartItemServiceImpl - 🛒🟢💲 Checked calculation correct for Order. Saving to REPOOrder [orderId=4, orderDate=2024-02-10 16:33:33.968057, orderAddress=sg.ntu.edu.ecommerceapp.entity.Address@1e7f5e78, orderedItems=[sg.ntu.edu.ecommerceapp.entity.CartItem@60a657c4], total=700693.0]
+16:34:54.322 [http-nio-8080-exec-5] INFO  s.n.e.e.service.CartItemServiceImpl - 🛒🟢  newCart set with product, quantity and order saved to reposg.ntu.edu.ecommerceapp.entity.CartItem@7ea3c3dc
+16:35:00.830 [http-nio-8080-exec-6] INFO  s.n.e.e.service.CartItemServiceImpl - 🛒 foundProductsg.ntu.edu.ecommerceapp.entity.Product@81911ce
+16:35:00.839 [http-nio-8080-exec-6] INFO  s.n.e.e.service.CartItemServiceImpl - 🛒 foundOrderOrder [orderId=4, orderDate=2024-02-10 16:33:33.968057, orderAddress=sg.ntu.edu.ecommerceapp.entity.Address@31baf19c, orderedItems=[sg.ntu.edu.ecommerceapp.entity.CartItem@4de0bd70, sg.ntu.edu.ecommerceapp.entity.CartItem@61eb9f9f], total=841386.0]
+16:35:00.839 [http-nio-8080-exec-6] ERROR s.n.e.e.service.CartItemServiceImpl - 🛒🔴 Error cannot find foundCart 0 error sg.ntu.edu.ecommerceapp.service.CartItemServiceImpl$3: Cart not found! 0
+16:35:00.839 [http-nio-8080-exec-6] INFO  s.n.e.e.service.CartItemServiceImpl - 🔵💲checking  currCartItem 1 unitPrice 1000.99 x cartItemQuantity 700 equals 700693.0
+16:35:00.839 [http-nio-8080-exec-6] INFO  s.n.e.e.service.CartItemServiceImpl - 🔵💲checking  currCartItem 1 unitPrice 200.99 x cartItemQuantity 700 equals 140693.0
+16:35:00.839 [http-nio-8080-exec-6] INFO  s.n.e.e.service.CartItemServiceImpl - 🔵💲checking  currCartItem 3 unitPrice 599.0 x cartItemQuantity 200 equals 119800.0
+16:35:00.839 [http-nio-8080-exec-6] INFO  s.n.e.e.service.CartItemServiceImpl - 🛒🟢💲 Checked calculation correct for Order. Saving to REPOOrder [orderId=4, orderDate=2024-02-10 16:33:33.968057, orderAddress=sg.ntu.edu.ecommerceapp.entity.Address@31baf19c, orderedItems=[sg.ntu.edu.ecommerceapp.entity.CartItem@4de0bd70, sg.ntu.edu.ecommerceapp.entity.CartItem@61eb9f9f], total=841386.0]
+16:35:00.842 [http-nio-8080-exec-6] INFO  s.n.e.e.service.CartItemServiceImpl - 🛒🟢  newCart set with product, quantity and order saved to reposg.ntu.edu.ecommerceapp.entity.CartItem@2283a6d
+16:35:04.050 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+16:35:04.051 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+16:35:04.055 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
